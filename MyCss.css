@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
+}
+.container-fluid img{
+	width: 100%;
+}
+.container .cmt button{
+	float: right;
+}
+/*slide trong navbar*/
+.affix{
+	top: 0;
+	width: 100%;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	z-index: 9999 !important;
+}
+.affix-top{
+	position: static;
+	top: -35px;
+}
+.affix + .container-fluid{
+	padding-top: 70px;
+}
+/*cac thuoc tinh khac*/
+.thumbnail{
+	box-shadow: 1px 2px 5px #0f0f0f;
+}
+.mon{
+	border: 10px solid transparent;
+	margin-bottom: 25px;
+	width: 80%;
+	height: 80%;
+	opacity: 0.7;
+}
+.mon:hover{
+	border-color: #f1f1f1;
+	opacity: 1;
+}
+.bg-grey{
+	background-color: #f6f6f6;
+	padding: 50px;
+}	
+.gt, .row{
+	padding: 60px 50px;
+}
+
+.mua{
+	padding: 60px 50px;
+}
+.sec1 {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.kv1 .col-sm-3 img{
+	width:250px;
+	height: 250px;
+}
+.kv1{
+	padding: 0;
+}
+.kv1 p, .sec1 p{
+	font-size: 17px;
+	text-align:justify;
+}
+.kv h4{
+	font-size: 25px;
+	color: darkslategray;
+}
+.col-sm-6 img{
+	width: 500px;
+	height: 500px;
+}
+
+@media (max-width: 600px){
+	.kv1 .col-sm-3 img{
+		width: 500px;
+		height: 500px;
+	}
+}
+
+.jumbotron h3{
+	color: white;
+	text-align: center;
+}
+.nav-tabs{
+	background-color: darkslategray;
+}
+
+footer{
+	background-color: darkslategray;
+	color: white;
+}
+footer .page-header{
+	color: #848383;
+}
+footer .lk img{
+	width: 30px;
+	height: auto;
+	padding-right: 5px;
+}
